@@ -1,5 +1,41 @@
 baseURL = "https://rbague.github.io"
 title = "Roger Bagué"
-
 languageCode = "en"
 defaultcontentlanguage = "en"
+
+theme = "hugo-coder"
+
+[params]
+    author = "Roger Bagué"
+    info = "Full Stack / Android developer"
+    description = "Roger Bagué's personal website"
+    keywords = "blog,developer,personal"
+    avatarurl = "https://gravatar.com/avatar/c91264e8700d97b03fb0b760cb677653?s=200&d=identicon"
+
+    favicon_32 = "/image/favicon-32x32.png"
+    favicon_16 = "/image/favicon-16x16.png"
+
+    custom_css = ["css/blog.css"]
+    colorscheme = "light"
+
+# Social links
+[[params.social]]
+    name = "Email"
+    icon = "far fa-envelope"
+    weight = 1
+    url = "mailto:rogerbague@gmail.com"
+[[params.social]]
+    name = "GitHub"
+    icon = "fab fa-github fa-2x"
+    weight = 2
+    url = "https://github.com/rbague/"
+[[params.social]]
+    name = "Gitlab"
+    icon = "fab fa-gitlab fa-2x"
+    weight = 3
+    url = "https://gitlab.com/rbague/"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin-in"
+    weight = 4
+    url = "https://www.linkedin.com/in/rbague/"
